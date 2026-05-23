@@ -27,7 +27,10 @@ with app.app_context():
 
 @app.route('/')
 def index():
-    return render_template('index.html')  # serves from templates/index.html
+    return """
+    <h1>Smart Attendance System Working ✅</h1>
+    <p>Flask deployment successful on Render.</p>
+    """
 
 @app.route('/api/login', methods=['POST'])
 def login():
