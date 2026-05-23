@@ -1,7 +1,0 @@
-flask
-flask-cors
-flask-sqlalchemy
-flask-bcrypt
-pyjwt
-psycopg2-binary
-gunicorn
